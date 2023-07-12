@@ -1,0 +1,7 @@
+.mySwiper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 700px;
+    border: 2px solid var(--dorado);
+}

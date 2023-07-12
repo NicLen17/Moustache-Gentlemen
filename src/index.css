@@ -1,0 +1,16 @@
+:root {
+    --dorado: #bf930d;
+}
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Ysabeau SC", sans-serif;
+}
+
+body {
+    font-size: 25px;
+    background-color: black;
+    height: 100vh !important;
+    color: white !important;
+}
