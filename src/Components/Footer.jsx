@@ -8,17 +8,17 @@ export default function Footer() {
             <footer className="footer-distributed">
                 <div className="footer-left">
                     <p className="footer-links">
-                        <a href='' className="mt-2 items-footer">Inicio</a>
+                        <a href='#inicio' className="mt-2 items-footer">Inicio</a>
                         <br />
-                        <a href='' className="mt-2 items-footer">Catalogo</a>
+                        <a href='#contacto' className="mt-2 items-footer">Contacto</a>
                         <br />
-                        <a href='' className="mt-2 items-footer">Contacto</a>
+                        <a href='#servicios' className="mt-2 items-footer">Servicios</a>
                         <br />
-                        <a href='' className="mt-2 items-footer">Login</a>
+                        <a href='#about' className="mt-2 items-footer">About</a>
                     </p>
                 </div>
                 <div className="footer-right">
-                    <div className="mapa-footer mt-2" action="#" method="post">
+                    <div action="#" method="post">
                         <img loading='lazy' width={300} height={300} src={Logo} alt="" />
                     </div>
                 </div>
