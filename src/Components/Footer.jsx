@@ -18,9 +18,7 @@ export default function Footer() {
                     </p>
                 </div>
                 <div className="footer-right">
-                    <div action="#" method="post">
                         <img loading='lazy' width={300} height={300} src={Logo} alt="" />
-                    </div>
                 </div>
             </footer>
         </div>

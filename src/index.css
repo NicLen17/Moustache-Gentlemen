@@ -14,4 +14,17 @@ body {
     background-color: black;
     height: 100vh !important;
     color: white !important;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2b2a2a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--dorado);
 }

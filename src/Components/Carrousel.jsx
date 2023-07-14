@@ -24,9 +24,9 @@ function Carrousel() {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide><img style={{ objectFit: "cover", height: "700px", width: "100%" }} src={FotoCarro1} alt="" /></SwiperSlide>
-                <SwiperSlide><img style={{ objectFit: "cover", height: "700px", width: "100%" }} src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhcmJlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="" /></SwiperSlide>
-                <SwiperSlide><img style={{ objectFit: "cover", height: "700px", width: "100%" }} src="https://cdn.create.vista.com/api/media/medium/204534504/stock-photo-close-view-various-barber-tools?token=" alt="" /></SwiperSlide>
+                <SwiperSlide><img className="Swiper-img" src={FotoCarro1} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="Swiper-img" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhcmJlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="" /></SwiperSlide>
+                <SwiperSlide><img className="Swiper-img" src="https://cdn.create.vista.com/api/media/medium/204534504/stock-photo-close-view-various-barber-tools?token=" alt="" /></SwiperSlide>
             </Swiper>
         </div>
     )

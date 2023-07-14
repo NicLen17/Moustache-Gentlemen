@@ -1,0 +1,50 @@
+.About-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    scroll-margin-top: 305px;
+    margin-top: -45px;
+    margin-bottom: -45px;
+}
+
+.About-logo {
+    width: 400px;
+}
+
+.About-text {
+    width: 60%;
+}
+
+.About-text h1{
+    font-weight: bold;
+    padding: 5px;
+    color: var(--dorado);
+}
+
+
+@media (max-width: 1400px) {
+    .About-logo img{ 
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .About-logo img{ 
+        width: 300px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .About-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1400px) {
+    .About-text p{
+        font-size: 1rem;
+    }
+}

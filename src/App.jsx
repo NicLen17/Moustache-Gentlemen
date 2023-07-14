@@ -15,8 +15,9 @@ function App() {
       <Jump />
       <CardServices />
       <Jump />
-      {/* <About />  */}
-      <CardContact /> 
+      <About />
+      <Jump />
+      <CardContact />
       <Jump />
       <Footer />
     </>
