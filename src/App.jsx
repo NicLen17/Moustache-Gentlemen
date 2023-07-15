@@ -18,7 +18,6 @@ function App() {
       <About />
       <Jump />
       <CardContact />
-      <Jump />
       <Footer />
     </>
   )
