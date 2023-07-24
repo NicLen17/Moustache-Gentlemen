@@ -9,7 +9,12 @@ function About() {
             </section>
             <section className='About-text'>
                 <h1>Moustache Gentlemen</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.sumenda anm. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique possimus nobis ab vel debitis. Eum dolorum adipisci nam aspernatur repellat vero expedita quos explicabo nulla. Quisquam impedit officia quam. Ipsum.</p>
+                <ul>
+                    <li>Cuidar de sí mismo no es un gasto es una inversión.</li>
+                    <li>Deja que tu pelo hable por tí.</li>
+                    <li>No hay nada que una buenas manos y unas tijeras no puedan arreglar.</li>
+                    <li>La vida es demasiado corta para llevar un pelo aburrido.</li>
+                </ul>
             </section>
         </div>
     )

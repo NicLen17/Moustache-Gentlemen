@@ -15,7 +15,7 @@
 }
 
 .About-text {
-    width: 60%;
+    width: 600px;
 }
 
 .About-text h1{
@@ -23,7 +23,6 @@
     padding: 5px;
     color: var(--dorado);
 }
-
 
 @media (max-width: 1400px) {
     .About-logo img{ 
@@ -34,6 +33,10 @@
 @media (max-width: 600px) {
     .About-logo img{ 
         width: 300px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
 }
 

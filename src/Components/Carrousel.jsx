@@ -4,7 +4,13 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay } from "swiper";
 import './Carrousel.css'
-import FotoCarro1 from "../img/FotoCarro1.png";
+import FotoCarro1 from "../img/FotoCarro1Edit.png";
+import FotoCarro2 from "../img/FotoTijeras.jpg";
+import FotoCarro3 from "../img/FotoHerramientas2.jpg";
+import FotoCarro4 from "../img/FotoLocalFinal.png";
+import FotoCarro6 from "../img/FotoCarroBN.png";
+import FotoCarro5 from "../img/FotoHerramientas.jpg";
+
 
 function Carrousel() {
     return (
@@ -25,8 +31,11 @@ function Carrousel() {
                 className="mySwiper"
             >
                 <SwiperSlide><img className="Swiper-img" src={FotoCarro1} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="Swiper-img" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhcmJlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" alt="" /></SwiperSlide>
-                <SwiperSlide><img className="Swiper-img" src="https://cdn.create.vista.com/api/media/medium/204534504/stock-photo-close-view-various-barber-tools?token=" alt="" /></SwiperSlide>
+                <SwiperSlide><img className="Swiper-img" src={FotoCarro4} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="Swiper-img" src={FotoCarro6} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="Swiper-img" src={FotoCarro2} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="Swiper-img" src={FotoCarro5} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="Swiper-img" src={FotoCarro3} alt="" /></SwiperSlide>
             </Swiper>
         </div>
     )
