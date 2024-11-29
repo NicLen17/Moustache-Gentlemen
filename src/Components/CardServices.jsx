@@ -16,7 +16,7 @@ function CardServices() {
                     </Card.Body>
                 </Card>
                 <Card className='Card-services-individual'>
-                    <Card.Img variant="top" src="https://assets.theyou.com/public/thumbs/work_elements/7118/jpg/w1330/h1330/q80/7118/work_elements/October2020/for-colorful-hair-marine-haircut-for-men-water.jpg" />
+                    <Card.Img variant="top" src="https://i.pinimg.com/474x/40/68/6c/40686c29012be720d55b93ede979128d.jpg" />
                     <Card.Body>
                         <Card.Title> <h3>Corte de pelo y barba</h3> </Card.Title>
                         <a href="https://wa.me/5493813638992?text=Hola%20,%20tengo%20una%20consulta%20sobre%20el%20segundo%20estilo." target='blanck'><Button variant="warning" style={{fontWeight:"bold"}}>Consultar</Button></a>
